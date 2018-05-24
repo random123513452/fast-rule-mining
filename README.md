@@ -30,9 +30,15 @@ $ ./run.sh
 The output rules with supp and confidence scores would be in "output/output_rules_str-i", i = 1, 2, 3, 4, 5, 6.
 
 The format of the rules are of following:
+
 1: p(x, y) <- q(x, y)
+
 2: p(x, y) <- q(y, x)
+
 3: p(x, y) <- q(z, x), r(z, y)
+
 4: p(x, y) <- q(x, z), r(z, y)
+
 5: p(x, y) <- q(z, x), r(y, z)
+
 6: p(x, y) <- q(x, z), r(y, z)
