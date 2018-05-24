@@ -1,25 +1,25 @@
 Code to verify the fast rule mining algorithm on YAGO dataset.
 
-# requirements:
+# Requirements:
 sbt >= 1.1.5
 
 Spark version: 2.2.0
 
 Steps to run the experiments:
 
-# 1. untar the input dataset
+# 1. Rntar the input dataset
 
 ```console
 $ cd data
 $ tar -xvf YAGO.tar.gz
 $ cd ..
 ```
-# 2. create the binary package
+# 2. Create the binary package
 ```console
 $ sbt package
 ```
 
-# 3. run experiment through bash file.
+# 3. Run experiment through bash file.
 Notes:
 Please update spark binary path and memory/cpu cores settings in the file "run.sh".
 You might need to change permission of the file "run.sh" too. 
