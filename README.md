@@ -29,7 +29,7 @@ $ ./run.sh
 
 The output rules with supp and confidence scores would be in "output/output_rules_str-i", i = 1, 2, 3, 4, 5, 6.
 
-The format of the rules are of following:
+The types of the rules are of following:
 
 1: p(x, y) <- q(x, y)
 
