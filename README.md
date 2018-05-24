@@ -21,7 +21,8 @@ $ sbt package
 
 # 3. run experiment through bash file.
 Notes:
-You might need to change permission of the file "run.sh", and update spark binary path and memory/cpu cores settings too.
+Please update spark binary path and memory/cpu cores settings in the file "run.sh".
+You might need to change permission of the file "run.sh" too. 
 
 ```console
 $ ./run.sh
